@@ -45,10 +45,10 @@
 									<a href="index.php?page=contacts">Liên hệ</a>
 								</li>
 								<li>
-									<a href="index.php?page=post&&id=1">Hướng dẫn sử dụng</a>
+									<a href="index.php?page=HDSD">Hướng dẫn sử dụng</a>
 								</li>
 								<li>
-									<a href="index.php?page=post&&id=2">Hướng dẫn cho lái xe</a>
+									<a href="index.php?page=HDSDLX">Hướng dẫn cho lái xe</a>
 								</li>
 							</ul>
 						</div>
