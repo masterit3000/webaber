@@ -45,7 +45,7 @@
 				<div class="dialog">
 					<span class="fa fa-phone"></span>
 					<h4 class="white">Gọi TAXI ngay</h4>
-					<h3 class="yellow">0914 603 911</h3>
+					<h3 class="yellow">0911 131 172</h3>
 				</div>
 			</div>
 		</div>
@@ -232,8 +232,8 @@
 					<br/>
 					<br/>
 					<br/>
-					<a target="_blank" href="signup_driver.html" class="btn btn-yellow btn-lg btn-white visible-xs" style="width:100%">Đăng ký lái xe</a>
-					<a target="_blank" href="signup_driver.html" class="btn btn-yellow btn-lg btn-white hidden-xs">Đăng ký lái xe</a>
+                                        <a target="_blank" href="./index.php?page=signup_driver" class="btn btn-yellow btn-lg btn-white visible-xs" style="width:100%">Đăng ký lái xe</a>
+                                        <a target="_blank" href="./index.php?page=signup_driver" class="btn btn-yellow btn-lg btn-white hidden-xs">Đăng ký lái xe</a>
 
 				</div>
 			</div>
@@ -337,10 +337,10 @@
 		<div class="container">
 			<div class="row">
 				<a href="get_taxi.html" class="col-md-6 col-sm-6 col-ms-6">
-					<img src="public/images/_banner-1.png" class="full-width" alt="Banner">
+                                    <img src="public/images/11111111.jpg" class="full-width" alt="Banner">
 				</a>
 				<a href="get_taxi.html" class="col-md-6 col-sm-6 col-ms-6">
-					<img src="public/images/_banner-2.png" class="full-width" alt="Banner">
+                                    <img src="public/images/130.jpg" class="full-width" alt="Banner">
 				</a>
 			</div>
 		</div>
@@ -362,6 +362,21 @@
 						<div class="col-md-5ths col-sm-3 col-ms-4 col-xs-6">
 							<a href="http://hyundai.com/" target="_blank">
 								<img src="public/images/huyndai.png" alt="Partner" height="70px">
+							</a>
+						</div>
+                                                <div class="col-md-5ths col-sm-3 col-ms-4 col-xs-6">
+							<a href="http://www.mobifone.vn/wps/portal/public" target="_blank">
+                                                            <img src="public/images/logomobi.png" alt="Partner" style="max-width: 95%">
+							</a>
+                                                </div>
+                                                <div class="col-md-5ths col-sm-3 col-ms-4 col-xs-6">
+							<a href="https://vinacis.com" target="_blank">
+                                                            <img src="public/images/logovinacis.png" alt="Partner" style="max-width: 95%">
+							</a>
+                                                </div>
+                                                <div class="col-md-5ths col-sm-3 col-ms-4 col-xs-6">
+							<a href="https://zalo.me/pc" target="_blank">
+                                                            <img src="public/images/logozalo.png" alt="Partner" style="max-width: 95%">
 							</a>
 						</div>
 					</div>

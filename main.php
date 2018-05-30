@@ -5,11 +5,11 @@ To change this template file, choose Tools | Templates
 and open the template in the editor.
 -->
 <html>
-    <head>
+    
         <?php 
             include './header.php';
         ?>
-    </head>
+    
     <body>
         <?php
         // put your code here

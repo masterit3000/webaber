@@ -1,15 +1,6 @@
-<?php
-
-/* 
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-?>
 
 
-
-        <header class="page-header" style="background-image: url('public/images/_inner-bg.jpg');">
+       <header class="page-header" style="background-image: url('public/images/_inner-bg.jpg');">
 		<div class="container">
 			<ol class="bread">
 				<li>
@@ -17,12 +8,13 @@
 				</li>
 				<li class="divider"><span>//</span></li>
 				<li>
-					<span>Liên Hệ</span>
+					<span>Liên hệ</span>
 				</li>
 			</ol>		
-			<h1>Liên Hệ</h1>
+			<h1>Liên hệ</h1>
 		</div>
 	</header>
+
 	<section id="page-contacts">
 		<div class="container">
 			<div class="row">
