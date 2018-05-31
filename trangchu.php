@@ -140,7 +140,7 @@ include './dichvu.php';
                 <br/>
                 <br/>
                 <br/>
-                <a target="_blank" href="./index.php?page=signup_driver" class="btn btn-yellow btn-lg btn-white visible-xs" style="width:100%">Đăng ký lái xe 1</a>
+                <a target="_blank" href="./index.php?page=signup_driver" class="btn btn-yellow btn-lg btn-white visible-xs" style="width:100%">Đăng ký lái xe</a>
                 <a target="_blank" href="./index.php?page=signup_driver" class="btn btn-yellow btn-lg btn-white hidden-xs" style="width:73%">Đăng ký lái xe</a>
 
             </div>
