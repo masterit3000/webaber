@@ -45,8 +45,11 @@
 				</div>
 <div id="navbar" class="navbar-collapse collapse">
 	<ul class="nav navbar-nav">
-		<li >
+		<li class="current_page_item">
 			<a href="index.php">Trang chủ</a>
+		</li>
+                <li >
+			<a href="index.php?page=services">Giới Thiệu</a>
 		</li>
 	
 		<li >

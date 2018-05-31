@@ -1,6 +1,5 @@
 
-
-       <header class="page-header" style="background-image: url('public/images/_inner-bg.jpg');">
+	<header class="page-header" style="background-image: url('public/images/_inner-bg.jpg');">
 		<div class="container">
 			<ol class="bread">
 				<li>
@@ -45,7 +44,7 @@
 					</div>
 				</div>
 				<div class="col-lg-6 col-md-6 contact-form">
-										<form action="http://taxila.vn/index.php/index/contacts" class="form" method="post" accept-charset="utf-8">
+										<form  class="form" method="post" accept-charset="utf-8">
 <input type="hidden" name="csrf_delivn_name" value="d72ee191459ed54a322716263bae0e9d" />                                      
 						<h3 class="aligncenter">Gửi tin nhắn</h3>
 						<label>Tên của bạn <span class="red">*</span></label>
@@ -65,6 +64,51 @@
 						<input type="submit" name="send" value="Gửi" class="btn btn-yellow aligncenter btn-lg">
 					</form>					
 				</div>
+                                <?php
+     if($_SERVER['REQUEST_METHOD']==='POST'){
+         $name = $_POST['name'];
+         $email = $_POST['email'];
+         $phone = $_POST['phone'];
+         $message = $_POST['message'];
+         $kt= 0;
+         // kiem tra du lieu nhap vao
+         if(isset($name)&isset($email)&isset($phone)&isset($message)){
+             // kiem tra da nhap du thong tin chua
+             if($name==''){
+                 echo 'Plese enter name!';
+             } else {
+                if($email==''){
+                    echo 'Plese enter email!';
+                } else {
+                    if($phone== ''){
+                        echo 'Plese enter phone';
+                    }else{
+                        if($message== ''){
+                        echo 'Plese enter message';
+                    }else{
+                            $kt=1;
+                    }
+                    }
+                }
+             }
+         }
+     if($kt===1){
+         $contact = array(
+             'name' => $name,
+             'email' => $email,
+             'phone' => $email,
+             'message' => $message,
+         );
+         $result = contact($contact);
+         if($result){
+                      echo 'thanks kiu!';
+                  } else {
+                      echo 'error!';
+                  }
+     }
+}
+    
+?>
 			</div>
 		</div>
 	</section>

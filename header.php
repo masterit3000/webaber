@@ -2,7 +2,9 @@
 <!-- Added by HTTrack -->
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 <!-- /Added by HTTrack -->
-
+<?php 
+    include './DAO.php';
+?>
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,7 +12,7 @@
 	<meta name="description" content="">
 	<meta name="author" content="">
 	<link rel="icon" type="image/png" href="public/images/favicon.ico">
-	<title>Taxila</title>
+	<title>Aber</title>
 	<link href="public/css/bootstrap-grid.css" rel="stylesheet">
 	<link href="public/css/font-awesome.css" rel="stylesheet">
 	<link href="public/css/swiper.css" rel="stylesheet">

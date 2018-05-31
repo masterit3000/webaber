@@ -1,15 +1,16 @@
+<?php 
+    $about = about();
+    $adress = $about['adress'];
+    $phone = $about['phone'];
+    $email = $about['email'];
+    $intro = $about['intro'];
+?>
 <section id="block-footer">
 <div class="container">
 		<div class="row">
 				<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 col-ms-6">
 					<h4>Giới thiệu</h4>
-					<p class="text-justify">Dựa trên nền tảng công nghệ từ Cộng hoà liên bang Đức, đội ngũ phát triển của Aber là những người Việt trẻ ở thế hệ 8x, 9x,
-							với những khát khao và việc xây dựng một ứng dụng kết nối nhu cầu đi lại, công tác, vận chuyển và hơn nữa là hướng dẫn
-							du lịch. Aber sẽ xây dựng nền tảng tốt nhất với mong muốn gia tăng trải nghiệm của khách hàng, bằng sự tận tâm và nụ
-							cười của người dẫn đường – những tài xế Aber, với khách hàng không chỉ là di chuyển, chúng tôi gọi đó là “những chuyến
-							xe chở niềm vui và nụ cười”. Đi sau nhưng cam kết tạo nên nhiều hơn những trải nghiệm khác biệt dành cho tài xế và hành
-							khách, đó là điều tuyệt vời mà đội ngũ Aber Việt Nam đang hướng đến. Bên cạnh đó, ABER còn là trách nhiệm của chúng
-							tôi đối với đội ngũ tài xế…</p>
+                                        <p class="text-justify"><?php echo $intro; ?></p>
 					<div class="social-small social-yellow">
 						<a href="https://www.facebook.com/Taxila/" class="fa fa-facebook"></a>
 						<a href="https://www.youtube.com/channel/UCjWCUzee3VCmtHK-fVg3W6A" class="fa fa-youtube"></a>
@@ -58,14 +59,14 @@
 			<div class="col-lg-3 col-md-6 col-sm-6 col-ms-6">
 					<h4>Liên hệ</h4>
 					<p>
-						<span class="yellow">Địa chỉ:</span> 409 Phạm Văn Đồng, phường 11 Quận Bình Thạnh TP HCM</p>
+						<span class="yellow">Địa chỉ:</span> <?php echo $adress; ?></p>
 
 					<ul class="address">
 						<li>
-							<span class="fa fa-phone"></span>0911.131.172</li>
+							<span class="fa fa-phone"></span><?php echo $phone; ?></li>
 						<li>
 							<span class="fa fa-envelope"></span>
-							<a href="vukhoi20021999@gmail.com">masteris@gmail.com</a>
+							<a href="vukhoi20021999@gmail.com"><?php echo $email; ?></a>
 						</li>
 						<!-- <li><span class="fa fa-fax"></span>04 39 72 58 88</li> -->
 					</ul>

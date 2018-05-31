@@ -139,7 +139,7 @@
 						<div class="price">
 							<small style="font-size:50%">từ</small>180.000
 							<span>
-								<small style="font-size:50%">chiều đi</small>
+								<small style="font-size:30%">chiều đi</small>
 							</span>
 						</div>
 					</div>

@@ -16,14 +16,14 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-6 col-lg-offset-3 contact-form">
-                <form action="http://taxila.vn/index.php/index/signup" class="form" method="post" accept-charset="utf-8">
+                <form  class="form" method="post" accept-charset="utf-8">
                     <input type="hidden" name="csrf_delivn_name" value="d72ee191459ed54a322716263bae0e9d" />                                                                                                   
                     <h3 class="aligncenter">Đăng ký</h3>
                     <label>Họ <span class="red">*</span></label>
-                    <input type="text" name="firstname" placeholder="Họ của bạn" 
+                    <input type="text" name="ho" placeholder="Họ của bạn" 
                            required value="">
                     <label>Tên <span class="red">*</span></label>
-                    <input type="text" name="lastname" placeholder="Tên của bạn" 
+                    <input type="text" name="ten" placeholder="Tên của bạn" 
                            required value="">
                     <label>E-mail <span class="red">*</span></label>
                     <input type="email" name="email" placeholder="E-mail" 
@@ -45,6 +45,64 @@
         </div>
     </div>
 </section>
+<?php
+     if($_SERVER['REQUEST_METHOD']==='POST'){
+         $ho = $_POST['ho'];
+         $name = $_POST['ten'];
+         $email = $_POST['email'];
+         $phone = $_POST['phone'];
+         $password = $_POST['password'];
+         $re_password = $_POST['re_password'];
+         $kt= 0;
+         // kiem tra du lieu nhap vao
+         if(isset($ho)&isset($name)&isset($email)&isset($phone)&isset($password)&isset($re_password)){
+             // kiem tra da nhap du thong tin chua
+            if($ho==''){
+                echo 'Bạn chưa nhập họ!';
+            }else{
+                if($name==''){
+                    echo 'Bạn chưa nhập tên!';
+                } else {
+                   if($email==''){
+                       echo 'Bạn chưa nhập email!';
+                   } else {
+                       if($phone== ''){
+                           echo 'Bạn chưa nhập số điện thoại';
+                       }else{
+                           if($password== ''){
+                           echo 'Bạn chưa nhập password';
+                       }else{
+                           if($re_password!=$password){
+                              echo 'Vui lòng nhập chính xác password';
+                           } else {
+                               $kt=1;
+                           }
+                              
+                       }
+                       }
+                   }
+                }
+            }
+         }
+     if($kt===1){
+         $signup = array(
+             
+             'ho' => $ho,
+             'ten' => $name,
+             'email' => $email,
+             'phone' => $phone,
+             'password' => md5($password),
+         );
+         $result = signup($signup);
+         if($result){
+                      echo 'thanks kiu!';
+                  } else {
+                      echo 'error!';
+                  }
+     }
+}
+    
+?>
 <section id="partners">
     <div class="container">
         <div class="row">

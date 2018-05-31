@@ -16,17 +16,17 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-6 col-lg-offset-3 contact-form">
-					<form action="http://taxila.vn/index.php/index/signup_driver" class="form" method="post" accept-charset="utf-8">
+					<form  class="form" method="post" accept-charset="utf-8">
 						<input type="hidden" name="csrf_delivn_name" value="d72ee191459ed54a322716263bae0e9d" />
 						<h3 class="aligncenter">Đăng ký lái xe</h3>
 						<label>Họ
 							<span class="red">*</span>
 						</label>
-						<input type="text" name="firstname" placeholder="Họ của bạn" required value="">
+						<input type="text" name="ho" placeholder="Họ của bạn" required value="">
 						<label>Tên
 							<span class="red">*</span>
 						</label>
-						<input type="text" name="lastname" placeholder="Tên của bạn" required value="">
+						<input type="text" name="ten" placeholder="Tên của bạn" required value="">
 						<label>E-mail
 							<span class="red">*</span>
 						</label>
@@ -48,6 +48,57 @@
 			</div>
 		</div>
 	</section>
+<?php
+     if($_SERVER['REQUEST_METHOD']==='POST'){
+         $ho = $_POST['ho'];
+         $name = $_POST['ten'];
+         $email = $_POST['email'];
+         $phone = $_POST['phone'];
+         $address = $_POST['address'];
+         $kt= 0;
+         // kiem tra du lieu nhap vao
+         if(isset($ho)&isset($name)&isset($email)&isset($phone)&isset($address)){
+             // kiem tra da nhap du thong tin chua
+            if($ho==''){
+                echo 'Bạn chưa nhập họ!';
+            }else{
+                if($name==''){
+                    echo 'Bạn chưa nhập tên!';
+                } else {
+                   if($email==''){
+                       echo 'Bạn chưa nhập email!';
+                   } else {
+                       if($phone== ''){
+                           echo 'Bạn chưa nhập số điện thoại';
+                       }else{
+                           if($address== ''){
+                           echo 'Bạn chưa nhập địa chỉ';
+                       }else{
+                               $kt=1;
+                       }
+                       }
+                   }
+                }
+            }
+         }
+     if($kt===1){
+         $signup = array(
+             'ho' => $ho,
+             'ten' => $name,
+             'email' => $email,
+             'phone' => $phone,
+             'adress' => $address,
+         );
+         $result = signup_driver($signup);
+         if($result){
+                      echo 'thanks kiu!';
+                  } else {
+                      echo 'error!';
+                  }
+     }
+}
+    
+?>
 	<section id="partners">
 		<div class="container">
 			<div class="row">
