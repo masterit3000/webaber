@@ -49,7 +49,7 @@ if( $iPod || $iPhone || $iPad){
     </div>
 </div>
 <div class="nav-wrapper">
-    <nav class="navbar navbar-static navbar-affix dark affix"  data-spy="affix">
+    <nav class="navbar navbar-static navbar-affix" style="z-index: 100;"   data-spy="affix">
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar" >
