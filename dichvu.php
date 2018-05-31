@@ -20,7 +20,7 @@ và những nụ cười
             <li class=" col-md-4 col-sm-6 col-ms-6 matchHeight">
                 <a data-toggle="tab" href="#tab2">
                     <div class="image text-center">
-                        <img src="public/images/Picture3.png" width="150px" height="150px" alt="Service">
+                        <img src="public/images/logo-inner.png" width="150px" height="150px" alt="Service">
                     </div>
                     <h5 class="text-center">ABER CAR</h5>
                     <p class="text-justify">
@@ -139,10 +139,10 @@ nhu cầu đi lại của khách hàng
                     <p class="text-center">Xe giao hàng – Xe tải</p>
                     <p class="text-justify">
                     Lần đầu tiên xe tải chở hàng được đặt qua ứng dụng công nghệ. 
-Aber là công ty về ứng dụng công nghệ đi tiên phong trong vấn đề này. 
-Chỉ cần 1 vài thao tác đơn giản trên app Aber là bạn sẽ được đội ngũ chuyên nghiệp trong lĩnh vực vận tải hỗ trợ tận tình, nhằm đem đến cho bạn sự 
-thoải mái, tiện lợi và uy tín trong từng chuyến hàng và dịch vụ. 
-Bạn có thể đưa ra các yêu cầu về dịch vụ để Aber phục vụ bạn được tốt hơn
+                    Aber là công ty về ứng dụng công nghệ đi tiên phong trong vấn đề này. 
+                    Chỉ cần 1 vài thao tác đơn giản trên app Aber là bạn sẽ được đội ngũ chuyên nghiệp trong lĩnh vực vận tải hỗ trợ tận tình, nhằm đem đến cho bạn sự 
+                    thoải mái, tiện lợi và uy tín trong từng chuyến hàng và dịch vụ. 
+                    Bạn có thể đưa ra các yêu cầu về dịch vụ để Aber phục vụ bạn được tốt hơn
 
                     </p>
                 </div>
