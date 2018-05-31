@@ -149,7 +149,7 @@ include './dichvu.php';
 </section>
 <section id="testimonials">
     <hr class="lg">
-    <div class="container hidden">
+    <!-- <div class="container hidden">
         <h4 class="yellow">Khách hàng hài lòng</h4>
         <h2 class="h1">Đánh giá cao</h2>
 
@@ -239,19 +239,19 @@ include './dichvu.php';
                 <a href="#" class="arrow-right fa fa-caret-right"></a>
             </div>
         </div>
-    </div>
+    </div> -->
 </section>
 <div id="homepage-banners">
     <div class="container">
         <div class="row">
             <a href="#" class="col-md-4 col-sm-4 col-ms-4">
-                <img src="public/images/11111111.jpg" class="full-width img-rounded" alt="Banner">
+                <img src="public/images/11111111.jpg" height="280" class="full-width img-rounded" alt="Banner">
             </a>
             <a href="#" class="col-md-4 col-sm-4 col-ms-4">
-                <img src="public/images/130.jpg" class="full-width img-rounded" style="height:287px"  alt="Banner">
+                <img src="public/images/130.jpg" height="280" class="full-width img-rounded" style="height:287px"  alt="Banner">
             </a>
             <a href="#" class="col-md-4 col-sm-4 col-ms-4">
-                <img src="public/images/22222.jpg" class="full-width img-rounded" alt="Banner">
+                <img src="public/images/22222.jpg" height="280" class="full-width img-rounded" alt="Banner">
             </a>
         </div>
     </div>

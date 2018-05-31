@@ -1759,7 +1759,7 @@ nav.navbar.affix {
     }
 }
 #testimonials {
-    padding: 0 0 100px;
+    /* padding: 0 0 100px; */
     background: #F5F5F5
 }
 #testimonials h2,
@@ -1860,7 +1860,8 @@ nav.navbar.affix {
     z-index: 2
 }
 #homepage-banners {
-    background: #F5F5F5
+    background: #F5F5F5;
+    margin-bottom: 25px;
 }
 #homepage-banners a {
     display: block
