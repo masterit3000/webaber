@@ -5,9 +5,9 @@
                 <h4 class="white">Gọi TAXI ngay</h4>
                 <h3 class="yellow"><span class="fa fa-phone"></span> 0914 603 911</h3>
         </div> -->
-        <h2>Đặt Taxi Trực tuyến</h2>
+        <h2>Đặt xe Trực tuyến</h2>
 
-        <form method="post" accept-charset="utf-8">
+        <form method="post" accept-charset="utf-8" action="<?php echo $linkapp; ?>">
             <input type="hidden" name="csrf_delivn_name" value="d72ee191459ed54a322716263bae0e9d" />
             <!-- <div class="row forms" style="margin-bottom: 0px">
                     <div class="col-md-5ths">
@@ -44,7 +44,7 @@
             <img src="public/images/_car-big-2.png" alt="Taxi">
             <div class="dialog">
                 <span class="fa fa-phone"></span>
-                <h4 class="white">Gọi TAXI ngay</h4>
+                <h4 class="white">Gọi xe ngay</h4>
                 <h3 class="yellow">0911 131 172</h3>
             </div>
         </div>
@@ -53,7 +53,7 @@
 <div class="homepage-block-yellow-2">
 </div>
 <?php
-    include './dichvu.php';
+include './dichvu.php';
 ?>
 <section id="download" class="parallax" style="background-image: url('public/images/_download-bg.jpg');">
     <div class="container">
