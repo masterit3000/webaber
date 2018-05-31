@@ -5,6 +5,9 @@
     $email = $about['email'];
     $intro = $about['intro'];
 ?>
+<?php
+include_once './doitac.php';
+?>
 <section id="block-footer">
 <div class="container">
 		<div class="row">
@@ -27,8 +30,11 @@
 								<li>
 									<a href="index.php?page=services">Dịch vụ</a>
 								</li>
-								<li>
+<!--								<li>
 									<a href="index.php?page=pricelist">Bảng giá</a>
+								</li>-->
+                                                                <li>
+									<a href="index.php?page=contacts">Liên hệ</a>
 								</li>
 								<li>
 									<a href="index.php?page=download">Ứng dụng</a>
@@ -42,9 +48,7 @@
 									<a href="index.php?page=signup_driver">Đăng ký lái xe</a>
 								</li>
 								<!-- <li><a href="http://taxila.vn/index.php/index#testimonials">Đánh giá cao</a></li> -->
-								<li>
-									<a href="index.php?page=contacts">Liên hệ</a>
-								</li>
+								
 								<li>
 									<a href="index.php?page=HDSD">Hướng dẫn sử dụng</a>
 								</li>
@@ -83,21 +87,22 @@
 </footer>
 	<script>var base_href = 'index.html';</script>
 	<script type="text/javascript" src="public/js/jquery.min.js"></script>
-	<script src="ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+	<script src="public/js/jqueryui/1.12.1/jquery-ui.min.js"></script>
 	<script type="text/javascript" src="public/js/plugins.min.js"></script>
 	<script type="text/javascript" src="public/js/scripts.js"></script>
 	<script type="text/javascript" src="public/js/autocomplete/jquery.bootcomplete.js"></script>
+      
 	<script type="text/javascript">
-		$(function () {
-            $('#from').bootcomplete({
-		        url:'http://taxila.vn/index.php/index/suggess_address',
-		        minLength : 2
-		    });
-		    $('#to').bootcomplete({
-		        url:'http://taxila.vn/index.php/index/suggess_address',
-		        minLength : 2
-		    });
-	    });
+//		$(function () {
+//            $('#from').bootcomplete({
+//		        url:'http://taxila.vn/index.php/index/suggess_address',
+//		        minLength : 2
+//		    });
+//		    $('#to').bootcomplete({
+//		        url:'http://taxila.vn/index.php/index/suggess_address',
+//		        minLength : 2
+//		    });
+//	    });
 	</script>
 
 
