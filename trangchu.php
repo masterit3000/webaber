@@ -245,13 +245,13 @@ include './dichvu.php';
     <div class="container">
         <div class="row">
             <a href="#" class="col-md-4 col-sm-4 col-ms-4">
-                <img src="public/images/11111111.jpg" class="full-width" alt="Banner">
+                <img src="public/images/11111111.jpg" class="full-width img-rounded" alt="Banner">
             </a>
             <a href="#" class="col-md-4 col-sm-4 col-ms-4">
-                <img src="public/images/130.jpg" class="full-width" alt="Banner">
+                <img src="public/images/130.jpg" class="full-width img-rounded" style="height:287px"  alt="Banner">
             </a>
             <a href="#" class="col-md-4 col-sm-4 col-ms-4">
-                <img src="public/images/22222.jpg" class="full-width" alt="Banner">
+                <img src="public/images/22222.jpg" class="full-width img-rounded" alt="Banner">
             </a>
         </div>
     </div>
