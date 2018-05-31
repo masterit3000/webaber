@@ -121,14 +121,14 @@ include './dichvu.php';
                 <h2 class="h1">Bạn có xe hoặc chưa có xe?</h2>
             </div>
             <div class="col-md-6">
-                <p>Bạn là lái xe Taxi của hãng nào, điều đó không quan trọng! Tham gia vào sàn Taxi chung này bạn có nhiều cơ hội:</p>
+                <p>Bạn là lái xe của hãng nào, điều đó không quan trọng! Tham gia vào sàn Taxi chung này bạn có nhiều cơ hội:</p>
 
                 <ul class="check two-col strong">
                     <li>Tăng thêm thu nhập</li>
                     <li>Giảm chi phí cho những km rỗng</li>
                     <li>Bảng giá theo hãng taxi của bạn</li>
-                    <li>Tự chủ Thời gian làm việc</li>
-                    <li>Nguồn khách dồi dào</li>
+                    <li style="padding-left:  10px;">Tự chủ Thời gian làm việc</li>
+                    <li style="padding-left:  10px;">Nguồn khách dồi dào</li>
                     <!-- <li>Nhiều yêu cầu đặt xe</li> -->
                 </ul>
                 <a target="_blank" href="https://play.google.com/store/apps/details?id=aber.com.driver_order" style="width: 49%;float: left;margin-right: 5px;">
