@@ -16,12 +16,12 @@
 <section id="services">
     <div class="container">
         <div class="row">
-            <div class="col-md-2 col-sm-6 col-ms-6 matchHeight">
+            <div class="col-md-4 col-sm-6 col-ms-6 matchHeight">
                 <div class="image">
-                    <img src="public/images/Picture8.png" width="150px" height="150px" alt="Service">
+                    <img src="public/images/logo-inner.png" width="250px" alt="Service">
                 </div>
             </div>
-            <div class="col-md-10 col-sm-6 col-ms-6 matchHeight text-justify">
+            <div class="col-md-8 col-sm-6 col-ms-6 matchHeight text-justify">
                 <h5>TẠI SAO BẠN NÊN CHỌN ABER </h5>
                 <p>
                 Giá cước cạnh tranh: Chi phí xe hiển thị ngay trên ứng dụng, bạn chỉ việc trả đúng số tiền này và an tâm tận hưởng chuyến đi. Chúng tôi luôn cố gắng để hài hoà giữa lợi ích của tài xế và của hành khách. 
