@@ -13,7 +13,7 @@ function about() {
 
     $about = array(
         "adress" => '409 Phạm Văn Đồng, phường 11 Quận Bình Thạnh TP HCM',
-        "phone" => '0911.131.172',
+        "phone" => '0282 253 5850',
         "email" => 'contacts@aber.com.vn',
         "intro" => 'Dựa trên nền tảng công nghệ từ Cộng hoà liên bang Đức, đội ngũ phát triển của Aber là những người Việt trẻ ở thế hệ 8x, 9x, với những khát khao và việc xây dựng một ứng dụng kết nối nhu cầu đi lại, công tác, vận chuyển và hơn nữa là hướng dẫn du lịch. Aber sẽ xây dựng nền tảng tốt nhất với mong muốn gia tăng trải nghiệm của khách hàng, bằng sự tận tâm và nụ cười của người dẫn đường – những tài xế Aber, với khách hàng không chỉ là di chuyển, chúng tôi gọi đó là “những chuyến xe chở niềm vui và nụ cười”. Đi sau nhưng cam kết tạo nên nhiều hơn những trải nghiệm khác biệt dành cho tài xế và hành khách, đó là điều tuyệt vời mà đội ngũ Aber Việt Nam đang hướng đến. Bên cạnh đó, ABER còn là trách nhiệm của chúng tôi đối với đội ngũ tài xế…',
     );
