@@ -5,7 +5,7 @@
 
         <ul class="row nav nav-tabs">
             <li class="active col-md-4 col-sm-6 col-ms-6 matchHeight">
-                <a data-toggle="tab" href="#tab1">
+                <a data-toggle="tab" href="#tab1" class="scroll">
                     <div class="image text-center" >
                         <img src="public/images/Picture7.png" width="150px" height="150px" alt="Service">
                     </div>
@@ -18,7 +18,7 @@ và những nụ cười
                 </a>
             </li>
             <li class=" col-md-4 col-sm-6 col-ms-6 matchHeight">
-                <a data-toggle="tab" href="#tab2">
+                <a data-toggle="tab" href="#tab2" class="scroll">
                     <div class="image text-center">
                         <img src="public/images/logo-inner.png" width="150px" height="150px" alt="Service">
                     </div>
@@ -30,7 +30,7 @@ và những nụ cười
                 </a>
             </li>
             <li class=" col-md-4 col-sm-6 col-ms-6 matchHeight">
-                <a data-toggle="tab" href="#tab3">
+                <a data-toggle="tab" href="#tab3" class="scroll">
                     <div class="image text-center">
                         <img src="public/images/Picture8.png" width="150px" height="150px" alt="Service">
                     </div>
@@ -46,7 +46,6 @@ sẽ đem đến cho bạn
             </li>
 
         </ul>
-
 
 
         <div class="tab-content" style="margin-top: 30px">
@@ -150,6 +149,7 @@ nhu cầu đi lại của khách hàng
 
             </div>
         </div>
+     
         <!--        <div class="row">
                     <div class="col-md-4 col-sm-6 col-ms-6 matchHeight">
                         <div class="image">

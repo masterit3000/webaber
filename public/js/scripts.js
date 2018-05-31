@@ -80,13 +80,13 @@ var mapStyles = [
     }
 ];
 
-$(document).on('ready', function() {
+$(document).on('ready', function () {
     initParallax();
     initEvents();
     initMasonry();
     initMap();
     checkScrollAnimation();
-    $(function() {
+    $(function () {
         $('.matchHeight').matchHeight();
     });
     $(".accordion").accordion();
@@ -99,26 +99,26 @@ $(document).on('ready', function() {
     });
     initSwiper();
 });
-$(window).on('scroll', function(event) {
+$(window).on('scroll', function (event) {
     checkNavbar();
     checkCountUp();
     checkScrollAnimation();
     initProgressBar();
 }).scroll();
-$(window).on('resize', function() {
+$(window).on('resize', function () {
     initParallax();
 });
-$(window).on('load', function() {
+$(window).on('load', function () {
     initMasonry()
 });
 
 function initEvents() {
-    $('.menu-types').on('click', 'a', function() {
+    $('.menu-types').on('click', 'a', function () {
         $(this).addClass('active').siblings('.active').removeClass('active');
         $(this).parent().find('.type-value').val($(this).data('value'));
         return false;
     });
-    $('footer').on('click', '.go-top', function() {
+    $('footer').on('click', '.go-top', function () {
         $('html, body').animate({
             scrollTop: 0
         }, 800);
@@ -147,7 +147,7 @@ function initSwiper() {
         autoplay: 4000,
         autoplayDisableOnInteraction: false,
     });
-    $(window).on('resize', function() {
+    $(window).on('resize', function () {
         var ww = $(window).width()
         if ($('#testimonials-slider').length) {
             if (ww > 1000) {
@@ -176,7 +176,7 @@ function initProgressBar() {
     if (block.length) {
         var scrollTop = block.offset().top - window.innerHeight;
         if (!block.data('counted') && $(window).scrollTop() > scrollTop) {
-            $('.progressBar').each(function(i, el) {
+            $('.progressBar').each(function (i, el) {
                 progressBar(parseInt($(el).find('.value').html(), 10), $(el));
             });
             block.data('counted', 1);
@@ -241,8 +241,26 @@ function initMap() {
             position: uluru,
             // icon: 'public/images/logo-map.png',
             map: map,
-            title:'ABER',
-            label:'A'
+            title: 'ABER',
+            label: 'A'
         });
     }
 }
+
+jQuery(document).ready(function ($) {
+
+    // $('.nav a').click(function (e) {
+    //     e.preventDefault();
+    //     $(this).tab('show');
+    // })
+
+    $('a.scroll').on('click', function (e) {
+        var href = $(this).attr('href');
+        $('html, body').animate({
+            scrollTop:800
+        }, 'slow');
+        e.preventDefault();
+        console.log($(href).offset().top);
+    });
+
+});

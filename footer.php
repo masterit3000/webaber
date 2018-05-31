@@ -85,6 +85,7 @@ include_once './doitac.php';
 		<a href="#" class="go-top hidden-xs hidden-ms"></a>
 	</div>
 </footer>
+<a name="tab2" ></a>
 	<script>var base_href = 'index.html';</script>
 	<script type="text/javascript" src="public/js/jquery.min.js"></script>
 	<script src="public/js/jqueryui/1.12.1/jquery-ui.min.js"></script>
