@@ -10,7 +10,7 @@ and open the template in the editor.
             include './header.php';
         ?>
     
-    <body>
+    <body data-spy="scroll" data-target=".navbar">
         <?php
         // put your code here
         include './header-bar.php';

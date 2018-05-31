@@ -20,9 +20,9 @@ if( $iPod || $iPhone || $iPad){
 }
 
 ?>
-<div id="top-bar">
+<div id="top-bar" class="visible-lg">
     <div class="container">
-        <div class="row">
+        <div class="row vertical-align">
             <div class="col-lg-7 col-md-9">
                 <div class="contacts">
                     <div>
@@ -49,21 +49,20 @@ if( $iPod || $iPhone || $iPad){
     </div>
 </div>
 <div class="nav-wrapper">
-    <nav class="navbar navbar-static navbar-affix" style="z-index: 100;" data-spy="affix">
-        <div class="container">
+    <nav class="navbar navbar-inverse navbar-affix affix"  data-spy="affix">
+        <div class="container-fluid">
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false"
-                        aria-controls="navbar">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar top-bar"></span>
-                    <span class="icon-bar middle-bar"></span>
-                    <span class="icon-bar bottom-bar"></span>
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbarmenu" >
+                    <!-- <span class="sr-only">Toggle navigation</span> -->
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
                 </button>
                 <a class="logo" href="index.php">
                     <img src="public/images/logo-inner.png" alt="Taxila Booking" width="70px">
                 </a>
             </div>
-            <div id="navbar" class="navbar-collapse collapse">
+            <div id="navbarmenu" class="collapse navbar-collapse">
                 <ul class="nav navbar-nav">
                     <li <?php if ($page==''||$page=='trangchu') {echo 'class="current_page_item"';}?> >
                         <a href="index.php">Trang chủ</a>
@@ -85,7 +84,8 @@ if( $iPod || $iPhone || $iPad){
                         <a  href="index.php?page=signup_driver">Đăng ký lái xe</a>
                     </li>
                 </ul>
-            </div>			</div>
+            </div>			
+        </div>
     </nav>
 </div>
 
