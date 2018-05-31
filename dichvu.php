@@ -1,7 +1,7 @@
 <section id="dichvu">
     <div class="container">
         <!-- <h4 class="yellow">Chào mừng</h4> -->
-        <h2 class="h1">Dịch vụ của chúng tôi</h2>
+        <h2 class="h2 text-center">Dịch vụ của chúng tôi</h2>
 
         <ul class="row nav nav-tabs">
             <li class="active col-md-4 col-sm-6 col-ms-6 matchHeight">
@@ -91,7 +91,7 @@
                     <!--                    <div class="image">
                                             <img src="public/images/Picture8.png" width="150px" height="150px" alt="Service">
                                         </div>-->
-                    <h5 class="text-center">AAber - Xe doanh nghiệp</h5>
+                    <h5 class="text-center">Aber - Xe doanh nghiệp</h5>
                     <p class="text-justify">Trong nền kinh tế phát triển, nhu cầu đi lại và gặp gỡ khách hàng là nhu cầu thiết yếu của các doanh nghiệp. Aber đem đến giải pháp Aber Business, với đội ngũ được đào tạo chuyên nghiệp</p>
                 </div>
             </div>
