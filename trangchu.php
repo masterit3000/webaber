@@ -7,7 +7,7 @@
         </div> -->
         <h2>Đặt xe Trực tuyến</h2>
 
-        <form method="post" accept-charset="utf-8" action="<?php echo $linkapp; ?>">
+        <form method="get" accept-charset="utf-8" >
             <input type="hidden" name="csrf_delivn_name" value="d72ee191459ed54a322716263bae0e9d" />
             <!-- <div class="row forms" style="margin-bottom: 0px">
                     <div class="col-md-5ths">
@@ -38,7 +38,7 @@
                             <span class="fa fa-car"></span>
                     </div>
             </div> -->
-            <input type="submit" class="btn btn-yellow btn-bg-dark btn-lg" value="Đặt xe">
+            <a href="<?php echo $linkapp; ?>"><input type="button" class="btn btn-yellow btn-bg-dark btn-lg" value="Đặt xe"></a>
         </form>
         <div id="large-image" style="margin-top: 133px">
             <img src="public/images/_car-big-2.png" alt="Taxi">
