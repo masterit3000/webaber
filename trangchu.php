@@ -244,11 +244,14 @@ include './dichvu.php';
 <div id="homepage-banners">
     <div class="container">
         <div class="row">
-            <a href="#" class="col-md-6 col-sm-6 col-ms-6">
+            <a href="#" class="col-md-4 col-sm-4 col-ms-4">
                 <img src="public/images/11111111.jpg" class="full-width" alt="Banner">
             </a>
-            <a href="#" class="col-md-6 col-sm-6 col-ms-6">
+            <a href="#" class="col-md-4 col-sm-4 col-ms-4">
                 <img src="public/images/130.jpg" class="full-width" alt="Banner">
+            </a>
+            <a href="#" class="col-md-4 col-sm-4 col-ms-4">
+                <img src="public/images/22222.jpg" class="full-width" alt="Banner">
             </a>
         </div>
     </div>
