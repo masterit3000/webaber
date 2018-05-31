@@ -1463,8 +1463,8 @@ nav.navbar.affix {
     }
 }
 #services .image {
-    height: 70px;
-    line-height: 70px
+    height: 150px;
+    line-height: 150px
 }
 #services p {
     font-size: 14px;
@@ -1880,7 +1880,7 @@ nav.navbar.affix {
     }
 }
 #partners {
-    background: #ff3333;
+    background: #e3e3e3;
     padding: 43px 0 38px
 }
 #partners img {

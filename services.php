@@ -12,40 +12,10 @@
         <h1>Dịch Vụ</h1>
     </div>
 </header>
-<section id="services">
-    <div class="container">
-        <!-- <h4 class="yellow">Chào mừng</h4> -->
-        <h2 class="h1">Dịch vụ của chúng tôi</h2>
-        <div class="row">
-            <div class="col-md-4 col-sm-6 col-ms-6 matchHeight">
-                <div class="image">
-                    <img src="public/images/_services-1.png" alt="Service">
-                </div>
-                <h5>Taxi</h5>
-                <p>Nhanh chóng , tiện lợi, an toàn và lịch sự</p>
-            </div>
-            <div class="col-md-4 col-sm-6 col-ms-6 matchHeight">
-                <div class="image">
-                    <img src="public/images/_services-2.png" alt="Service">
-                </div>
-                <h5>Xe cho thuê</h5>
-                <p>Với dòng xe sang trọng và tài xế chuyên nghiệp phục vụ các chuyên xe đi đường dài, đi trọn chuyến</p>
-            </div>
-            <div class="col-md-4 col-sm-6 col-ms-6 matchHeight">
-                <div class="image">
-                    <img src="public/images/_services-4.png" alt="Service">
-                </div>
-                <h5>Taxi sân bay </h5>
-                <p>Dịch vụ taxi đưa đón từ nơi bạn ở đến sân bay</p>
-            </div>
-            <!-- <div class="col-md-3 col-sm-6 col-ms-6 matchHeight">	
-            <div class="image"><img src="http://taxila.vn/public/images/_services-3.png" alt="Service"></div>
-            <h5>Dịch vụ xe liên tỉnh </h5>
-            <p>Với đội xe buýt liên tỉnh sang trong và có giường nằm many lại cảm giác thoải mái khi đi đường xa</p>
-    </div> -->
-        </div>
-    </div>
-</section>
+
+<?php 
+    include './dichvu.php';
+?>
 
 <section id="testimonials">
     <hr class="lg">
