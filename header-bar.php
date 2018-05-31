@@ -59,7 +59,7 @@ if( $iPod || $iPhone || $iPad){
                     <span class="icon-bar middle-bar"></span>
                     <span class="icon-bar bottom-bar"></span>
                 </button>
-                <a class="logo" href=" index.html">
+                <a class="logo" href="index.php">
                     <img src="public/images/logo-inner.png" alt="Taxila Booking" width="70px">
                 </a>
             </div>
