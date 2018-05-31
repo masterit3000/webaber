@@ -32,7 +32,7 @@
 			<div class="row">
 				<div class="col-md-4 col-sm-6 col-ms-6 matchHeight">
 					<div class="image">
-                    <img src="public/images/Picture5.png" style="width:330px;Height:180px" alt="Service">
+                    <img src="public/images/Picture5.png" style="height:180px" alt="Service">
 					</div>
 					<h5>No4. Nạp tiền lần đầu
 Kích hoạt tài khoản</h5>
@@ -87,7 +87,7 @@ Kích hoạt tài khoản</h5>
         <div class="row">
             <div class="col-md-6 col-sm-6 col-ms-6 matchHeight">
 					<div class="image">
-                    <img src="public/images/Picture9.jpg" style="width:330px;Height:180px" alt="Service">
+                    <img src="public/images/Picture9.jpg" style="height:180px" alt="Service">
 					</div>
 					<h5 class="text-center" >ĐỐI TÁC LÀ SINH VIÊN</h5>
                     <p class="text-justify">1/ CMND/CCCD/Hộ chiếu: Còn hạn sử dụng.</br>
@@ -99,7 +99,7 @@ Kích hoạt tài khoản</h5>
             </div>
             <div class="col-md-6 col-sm-6 col-ms-6 matchHeight">
 					<div class="image">
-                    <img src="public/images/Picture10.png" style="width:330px;Height:180px" alt="Service">
+                    <img src="public/images/Picture10.png" style="height:180px" alt="Service">
 					</div>
 					<h5 class="text-center" >ĐỐI TÁC CÁ NHÂN</h5>
                     <p class="text-justify">1/ CMND/CCCD/Hộ chiếu: Còn hạn  sử dụng.</br>
@@ -119,7 +119,7 @@ Kích hoạt tài khoản</h5>
         <div class="row">
             <div class="col-md-6 col-sm-6 col-ms-6 matchHeight">
 					<div class="image">
-                    <img src="public/images/Picture10.png" style="width:330px;Height:180px" alt="Service">
+                    <img src="public/images/Picture10.png" style="height:180px" alt="Service">
 					</div>
 					<h5 class="text-center" >ĐỐI TÁC CÁ NHÂN</h5>
                     <p class="text-justify">1/ CMND/CCCD/Hộ chiếu: Còn hạn  sử dụng.</br>
@@ -135,7 +135,7 @@ Kích hoạt tài khoản</h5>
             </div>
             <div class="col-md-6 col-sm-6 col-ms-6 matchHeight">
 					<div class="image">
-                    <img src="public/images/Picture11.png" style="width:330px;Height:180px" alt="Service">
+                    <img src="public/images/Picture11.png" style="height:180px" alt="Service">
 					</div>
 					<h5 class="text-center" >ĐỐI TÁC DOANH NGHIỆP</h5>
                     <p class="text-justify">1/ CMND/CCCD/Hộ chiếu chủ doanh nghiệp: Còn hạn  sử dụng.</br>
