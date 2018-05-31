@@ -58,7 +58,7 @@ sẽ đem đến cho bạn
                     <h5 class="text-center">ABER BIKE</h5>
                     <p class="text-center">Xe ôm công nghệ</p>
                     <p class="text-justify">
-                    Xe ôm là từ ngữ quen thuộc mà mọi người gọi cánh tài xế sử dụng xe máy cho những chuyến đi của khách hàng. Và với trách nhiệm đưa đón khách hàng, các tài xế Aber xe ôm đều am hiểu đường phố và luôn lái xe với cả trái tim cùng những nụ cười
+                    Tại Việt Nam, xe ôm là từ ngữ quen thuộc mà mọi người gọi cánh tài xế sử dụng xe máy cho những chuyến đi của khách hàng. Và với trách nhiệm đưa đón khách hàng, các tài xế Aber xe ôm đều am hiểu đường phố và luôn lái xe với cả trái tim cùng những nụ cười
 
                     </p>
                 </div>
