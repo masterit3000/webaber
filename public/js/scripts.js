@@ -239,8 +239,10 @@ function initMap() {
         });
         var marker = new google.maps.Marker({
             position: uluru,
-            icon: base_href + 'public/images/location-black.png',
-            map: map
+            // icon: 'public/images/logo-map.png',
+            map: map,
+            title:'ABER',
+            label:'A'
         });
     }
 }

@@ -109,11 +109,11 @@
                     }
                 }
             }
-             * 
+             * 10.8211312,106.6932844
              */
             ?>
         </div>
     </div>
 </section>
-<div id="map" data-lat="21.0465548" data-lng="105.78310169999997" data-zoom="17"></div>
+<div id="map" data-lat="10.8211312" data-lng="106.6932844" data-zoom="17"></div>
 	
