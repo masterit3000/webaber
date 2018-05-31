@@ -38,9 +38,9 @@ if( $iPod || $iPhone || $iPad){
             <div class="col-lg-5 col-md-3">
                 <div class="social social-small visible-lg">
                     <a href=" #" class="fa fa-twitter"></a>
-                    <a href=" #" class="fa fa-facebook"></a>
+                    <a href="https://www.facebook.com/dichvugoixe/" class="fa fa-facebook"></a>
                     <a href=" #" class="fa fa-instagram"></a>
-                    <a href=" #" class="fa fa-google-plus"></a>
+                    <a href="https://www.youtube.com/channel/UCAmlmfkKDx3JM6h7ui5h_yg/featured" class="fa fa-youtube"></a>
                     <a href=" #" class="fa fa-pinterest"></a>
                 </div>
                 <a href="<?php echo $linkapp; ?>" class="btn btn-xs btn-white pull-right">Đặt xe trực tuyến</a>
