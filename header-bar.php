@@ -50,9 +50,9 @@ if( $iPod || $iPhone || $iPad){
 </div>
 <div class="nav-wrapper">
     <nav class="navbar navbar-static navbar-affix dark affix"  data-spy="affix">
-        <div class="container-fluid">
+        <div class="container">
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbarmenu" >
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar" >
                     <!-- <span class="sr-only">Toggle navigation</span> -->
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
@@ -62,7 +62,7 @@ if( $iPod || $iPhone || $iPad){
                     <img src="public/images/logo-inner.png" alt="Taxila Booking" width="70px">
                 </a>
             </div>
-            <div id="navbarmenu" class="collapse navbar-collapse">
+            <div id="navbar" class="collapse navbar-collapse">
                 <ul class="nav navbar-nav">
                     <li <?php if ($page==''||$page=='trangchu') {echo 'class="current_page_item"';}?> >
                         <a href="index.php">Trang chủ</a>
