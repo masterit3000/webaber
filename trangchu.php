@@ -5,7 +5,7 @@
                 <h4 class="white">Gọi TAXI ngay</h4>
                 <h3 class="yellow"><span class="fa fa-phone"></span> 0914 603 911</h3>
         </div> -->
-        <h2>Đặt xe Trực tuyến</h2>
+        <!-- <h2>Đặt xe Trực tuyến</h2> -->
 
         <!-- <form method="get" accept-charset="utf-8" > -->
             <!-- <input type="hidden" name="csrf_delivn_name" value="d72ee191459ed54a322716263bae0e9d" /> -->
@@ -38,13 +38,13 @@
                             <span class="fa fa-car"></span>
                     </div>
             </div> -->
-            <a href="<?php echo $linkapp; ?>"><input type="button" class="btn btn-yellow btn-bg-dark btn-lg" value="Đặt xe"></a>
+            <!-- <a href="<?php echo $linkapp; ?>"><input type="button" class="btn btn-yellow btn-bg-dark btn-lg" value="Đặt xe"></a> -->
         <!-- </form> -->
-        <div id="large-image" style="margin-top: 133px">
+        <div id="large-image" style="margin-top: 235px">
             <img src="public/images/_car-big-2.png" alt="Taxi">
             <div class="dialog">
                 <span class="fa fa-phone"></span>
-                <h4 class="white">Gọi xe ngay</h4>
+                <h4 class="white">Liên hệ</h4>
                 <h3 class="yellow">0911 131 172</h3>
             </div>
         </div>
@@ -57,7 +57,7 @@ include './dichvu.php';
 ?>
 <section id="download" class="parallax" style="background-image: url('public/images/_download-bg.jpg');">
     <div class="container">
-        <h4 class="yellow">Thêm lợi ích</h4>
+        <h4 class="yellow">Dành cho khách hàng</h4>
         <h2 class="h1">Tải ứng dụng</h2>
         <div class="row">
             <div class="col-md-4 col-sm-12">
@@ -118,17 +118,17 @@ include './dichvu.php';
         <div class="row">
             <div class="col-md-7">
                 <h4 class="yellow">Dành cho lái xe</h4>
-                <h2 class="h1">Bạn có xe hoặc chưa có xe?</h2>
             </div>
             <div class="col-md-6">
-                <p>Bạn là lái xe của hãng nào, điều đó không quan trọng! Tham gia vào sàn Taxi chung này bạn có nhiều cơ hội:</p>
+                <p class="h3">Bạn đang có xe gia đình !</p>
+                <p class="h3">Bạn muốn tăng thêm thu nhập!</p>
+                <h2 class="h2">Hãy tham gia Aber:</h2>
 
                 <ul class="check two-col strong">
-                    <li>Tăng thêm thu nhập</li>
-                    <li>Giảm chi phí cho những km rỗng</li>
-                    <li>Bảng giá theo hãng taxi của bạn</li>
-                    <li style="padding-left:  10px;">Tự chủ Thời gian làm việc</li>
-                    <li style="padding-left:  10px;">Nguồn khách dồi dào</li>
+                    <li>Nguồn khách dồi dào</li>
+                    <li>Thời gian làm việc linh hoạt</li>
+                    <li>Nhiều hỗ trợ của công ty</li>
+                    <li>Thu nhập ổn định</li>
                     <!-- <li>Nhiều yêu cầu đặt xe</li> -->
                 </ul>
                 <a target="_blank" href="https://play.google.com/store/apps/details?id=aber.com.driver_order" style="width: 49%;float: left;margin-right: 5px;">

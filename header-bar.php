@@ -43,7 +43,7 @@ if( $iPod || $iPhone || $iPad){
                     <a href="https://www.youtube.com/channel/UCAmlmfkKDx3JM6h7ui5h_yg/featured" class="fa fa-youtube"></a>
                     <a href=" #" class="fa fa-pinterest"></a>
                 </div>
-                <a href="<?php echo $linkapp; ?>" class="btn btn-xs btn-white pull-right">Đặt xe trực tuyến</a>
+                <!-- <a href="<?php echo $linkapp; ?>" class="btn btn-xs btn-white pull-right">Đặt xe trực tuyến</a> -->
             </div>
         </div>
     </div>
@@ -77,9 +77,12 @@ if( $iPod || $iPhone || $iPad){
                     <li <?php if ($page==''||$page=='contacts') {echo 'class="current_page_item"';}?> >
                         <a href="index.php?page=contacts">Liên hệ</a>
                     </li>
-                    <li <?php if ($page==''||$page=='signup') {echo 'class="current_page_item"';}?> >
-                        <a href="index.php?page=signup">Đăng ký</a>
+                    <li <?php if ($page==''||$page=='HDSDLX') {echo 'class="current_page_item"';}?> >
+                        <a href="index.php?page=HDSDLX">Lái xe cần biết</a>
                     </li>
+                    <!-- <li <?php if ($page==''||$page=='signup') {echo 'class="current_page_item"';}?> >
+                        <a href="index.php?page=signup">Đăng ký</a>
+                    </li> -->
                     <li <?php if ($page==''||$page=='signup_driver') {echo 'class="current_page_item"';}?> >
                         <a  href="index.php?page=signup_driver">Đăng ký lái xe</a>
                     </li>

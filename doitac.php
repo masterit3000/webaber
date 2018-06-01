@@ -2,8 +2,8 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-3 col-sm-12">
-					<h4 class="white margin-0">Đối tác</h4>
-					<h2 class="white margin-0">và khách hàng</h2>
+					<h4 class="white margin-0" style="color: #ff3333">Đối tác</h4>
+					<!-- <h2 class="white margin-0">và khách hàng</h2> -->
 				</div>
 				<div class="col-md-9 col-sm-12">
 					<div class="row items">

@@ -20,14 +20,14 @@ include_once './doitac.php';
 					</div>
 				</div>
 				<div class="col-lg-5 col-md-5 hidden-md hidden-sm hidden-xs hidden-ms">
-					<h4>Explore</h4>
+					<h4>Liên kết trang</h4>
 					<div class="row">
 						<div class="col-md-5">
 							<ul class="nav navbar-nav">
-								<li class="active">
+								<!-- <li class="active">
 									<a href="#">Đặt xe</a>
-								</li>
-								<li>
+								</li> -->
+								<li class="active">
 									<a href="index.php?page=services">Dịch vụ</a>
 								</li>
 <!--								<li>
@@ -37,7 +37,7 @@ include_once './doitac.php';
 									<a href="index.php?page=contacts">Liên hệ</a>
 								</li>
 								<li>
-									<a href="index.php?page=download">Ứng dụng</a>
+									<a href="index.php?page=download">Cài đặt ứng dụng</a>
 								</li>
 
 							</ul>
@@ -67,10 +67,14 @@ include_once './doitac.php';
 
 					<ul class="address">
 						<li>
-							<span class="fa fa-phone"></span><?php echo $phone; ?></li>
+							<span class="fa fa-phone"></span>0911.131.172
+						</li>
+						<li>
+							<span class="fa fa-tty"></span>02822 53 58 50
+						</li>
 						<li>
 							<span class="fa fa-envelope"></span>
-							<a href="vukhoi20021999@gmail.com"><?php echo $email; ?></a>
+							<a href="mailto:lienhe@aber.com.vn">lienhe@aber.com.vn</a>
 						</li>
 						<!-- <li><span class="fa fa-fax"></span>04 39 72 58 88</li> -->
 					</ul>
@@ -85,7 +89,6 @@ include_once './doitac.php';
 		<a href="#" class="go-top hidden-xs hidden-ms"></a>
 	</div>
 </footer>
-<a name="tab2" ></a>
 	<script>var base_href = 'index.html';</script>
 	<script type="text/javascript" src="public/js/jquery.min.js"></script>
 	<script src="public/js/jqueryui/1.12.1/jquery-ui.min.js"></script>

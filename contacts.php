@@ -29,6 +29,8 @@
                     <div class="col-lg-12 col-md-12 col-sm-6">
                         <ul class="address">
                             <li class="large"><span class="fa fa-phone"></span><a href="tel:0914 603 911">0911.131.172</a></li>
+                            <li class="large"><span class="fa fa-tty"></span><a href="tel:02822535850">028 22 53 58 50</a></li>
+                            <li class="large"><span class="fa fa-envelope-o"></span><a href="mailto:lienhe@aber.com.vn ">lienhe@aber.com.vn</a></li>
                             <!-- <li><span class="fa fa-fax"></span>04 39 72 58 88</li> -->
                             <li><span class="fa fa-map-marker"></span>409 Phạm Văn Đồng, phường 11 Quận Bình Thạnh TP HCM</li>
                         </ul>			
@@ -39,7 +41,7 @@
                             <li><a href="https://www.facebook.com/mailinhmienbac/" class="social-fb fa fa-facebook"></a></li>
                             <li><a href="https://www.youtube.com/channel/UCjWCUzee3VCmtHK-fVg3W6A" class="social-youtube fa fa-youtube"></a></li>
                         </ul>
-                        <a href="get_taxi.html" class="btn btn-yellow btn-lg">Đặt Taxi Trực tuyến</a>
+                        <!-- <a href="get_taxi.html" class="btn btn-yellow btn-lg">Đặt Taxi Trực tuyến</a> -->
                     </div>
                 </div>
             </div>
