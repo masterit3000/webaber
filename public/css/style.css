@@ -1475,7 +1475,7 @@ nav.navbar.affix {
     }
 }
 #services .image {
-    height: 150px;
+    /* height: 150px; */
     line-height: 150px
 }
 #services p {

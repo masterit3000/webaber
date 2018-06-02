@@ -15,4 +15,6 @@
 	<div class="container">
 		<div class="blog-post text-page" style="padding-top: 20px;">
 			<strong>Nội dung đang cập nhật...</strong>
+			</div>
 
+</div>

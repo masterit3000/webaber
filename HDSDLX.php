@@ -60,7 +60,7 @@ Kích hoạt tài khoản</h5>
         <div class="row">
             <div class="col-md-4 col-sm-6 col-ms-6 matchHeight">
                 <div class="image">
-                    <img src="public/images/_car-big-2.png"  width="100%" alt="Service">
+                    <img src="public/images/aber_taxi.png"  width="100%" alt="Service">
                 </div>
             </div>
             <div class="col-md-8 col-sm-6 col-ms-6 matchHeight text-justify">

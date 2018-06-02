@@ -25,7 +25,7 @@ include './DAO.php';
     <link href="public/css/swiper.css" rel="stylesheet">
     <link href="public/css/swipebox.css" rel="stylesheet">
     <link href="public/css/zoomslider.css" rel="stylesheet">
-    <link href="public/css/style.css?v=1" rel="stylesheet">
+    <link href="public/css/style.css?v=2" rel="stylesheet">
     <link href="public/js/datetimepicker/bootstrap-timepicker.min.css" rel="stylesheet">
     <link rel="stylesheet" href="public/js/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
     <link href="https:/fonts.googleapis.com/css?family=Fira+Sans+Condensed:700,800%7COpen+Sans:400,600,700" rel="stylesheet">

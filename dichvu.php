@@ -6,7 +6,7 @@
         <div class="row">
             <div class="col-md-4 col-sm-6 col-ms-6 matchHeight" style="height: 222px;"> 
                 <div class="image text-center" >
-                    <img src="public/images/bike.png" width="150px" height="150px" alt="Service">
+                    <img src="public/images/bike.png"  height="150px" alt="Service">
                 </div>
                 <h5 class="text-center" >ABER BIKE</h5>
                 <p class="text-justify">
@@ -16,7 +16,7 @@
 
             <div class="col-md-4 col-sm-6 col-ms-6 matchHeight" style="height: 222px;"> 
                 <div class="image text-center">
-                    <img src="public/images/car.png" width="150px" height="150px" alt="Service">
+                    <img src="public/images/car.png"  height="150px" alt="Service">
                 </div>
                 <h5 class="text-center">ABER CAR</h5>
                 <p class="text-justify">
@@ -25,7 +25,7 @@
             </div>
             <div class="col-md-4 col-sm-6 col-ms-6 matchHeight" style="height: 222px;"> 
                 <div class="image text-center">
-                    <img src="public/images/truck.png" width="150px" height="150px" alt="Service">
+                    <img src="public/images/truck.png" height="150px" alt="Service">
                 </div>
                 <h5 class="text-center">ABER TRUCK </h5>
                 <p class="text-justify">
@@ -34,7 +34,7 @@
             </div>
             <div class="col-md-4 col-sm-6 col-ms-6 matchHeight" style="height: 222px;">
                 <div class="image">
-                    <img src="public/images/travel.png" width="150px" height="150px" alt="Service">
+                    <img src="public/images/travel.png"  height="150px" alt="Service">
                 </div>
                 <h5 class="text-center">ABER TRAVEL </h5>
                 <p class="text-center">Trải nghiệm du lịch cùng Aber</p>
@@ -44,12 +44,24 @@
             </div>
             <div class="col-md-4 col-sm-6 col-ms-6 matchHeight" style="height: 222px;">
                 <div class="image">
-                    <img src="public/images/express.png" width="150px" height="150px" alt="Service">
+                    <img src="public/images/express.png"  height="150px" alt="Service">
                 </div>
                 <h5 class="text-center">Aber Express </h5>
                 <p class="text-center"> Xe giao hàng</p>
                 <p class="text-justify">
                     Nhanh chóng và tiện lợi, Aber Express giúp bạn giao nhận hàng hóa đến bất cứ địa điểm nào trong thành phố, với tiêu chí: Nhanh chóng, hiện đại, chuyên nghiệp và uy tín
+                </p>
+            </div>
+            <div class="col-md-4 col-sm-6 col-ms-6 matchHeight" style="height: 222px;">
+                <div class="image">
+                    <img src="public/images/Icon-06.png"  height="150px" alt="Service">
+                </div>
+                <h5 class="text-center">Aber Bus </h5>
+                <p class="text-center"> Xe đường dài</p>
+                <p class="text-justify">
+                Aber Bus là hình thức liên kết giữa các loại hình vận tải nhằm phục vụ bạn tốt nhất, giúp bạn quản lý được thời gian hiệu quả nhất với hình thức đưa đón tận nhà.
+Điểm nổi bật của Aber Bus là liên kết các loại hình dịch vụ với tiêu chí an toàn, tiện lợi và tiết kiệm, bạn có thể chọn loại xe đưa theo nhu cầu, từ xe moto cho đến xe oto, từ xe bình dân cho đến xe VIP... Với Aber Bus, bạn sẽ không phải lo về việc trễ chuyến xe hay nạn chèn ép tại bến xe.
+Aber Bus, giúp bạn thoải mái hơn cho những chuyến đi
                 </p>
             </div>
         </div>
