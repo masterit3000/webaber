@@ -15,7 +15,7 @@ include_once './doitac.php';
 					<h4>Giới thiệu</h4>
                                         <p class="text-justify"><?php echo $intro; ?></p>
 					<div class="social-small social-yellow">
-						<a href="https://www.facebook.com/dichvugoixe/" >&nbsp;aaa</a>
+						<a href="https://www.facebook.com/dichvugoixe/" onclick='console.log("test click iphone")' class="fa fa-facebook" ></a>
 						<a href="https://www.youtube.com/channel/UCAmlmfkKDx3JM6h7ui5h_yg/featured" class="fa fa-youtube">&nbsp;</a>
 					</div>
 				</div>
@@ -107,6 +107,21 @@ include_once './doitac.php';
 //		        minLength : 2
 //		    });
 //	    });
+
+var ua = navigator.userAgent.toLowerCase();
+if (ua.indexOf('safari') != -1) {
+    if (ua.indexOf('chrome') > -1) {
+        // chrome alert("1") 
+    } else {
+        // safri
+        HTMLElement.prototype.click = function () {
+
+            var click_ev = document.createEvent("MouseEvent");
+            click_ev.initEvent("click", true /* bubble */, true /* cancelable */);
+            this.dispatchEvent(click_ev);
+        };
+    };
+};
 	</script>
 
 
