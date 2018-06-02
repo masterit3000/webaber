@@ -38,8 +38,8 @@
                     <div class="col-lg-12 col-sm-12">
                         <strong>Mạng xã hội:</strong>
                         <ul class="social social-big">
-                            <li><a href="https://www.facebook.com/mailinhmienbac/" class="social-fb fa fa-facebook"></a></li>
-                            <li><a href="https://www.youtube.com/channel/UCjWCUzee3VCmtHK-fVg3W6A" class="social-youtube fa fa-youtube"></a></li>
+                            <li><a href="https://www.facebook.com/dichvugoixe/" class="social-fb fa fa-facebook"></a></li>
+                            <li><a href="https://www.youtube.com/channel/UCAmlmfkKDx3JM6h7ui5h_yg/featured" class="social-youtube fa fa-youtube"></a></li>
                         </ul>
                         <!-- <a href="get_taxi.html" class="btn btn-yellow btn-lg">Đặt Taxi Trực tuyến</a> -->
                     </div>

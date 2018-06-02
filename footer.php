@@ -15,8 +15,8 @@ include_once './doitac.php';
 					<h4>Giới thiệu</h4>
                                         <p class="text-justify"><?php echo $intro; ?></p>
 					<div class="social-small social-yellow">
-						<a href="https://www.facebook.com/dichvugoixe/" class="fa fa-facebook"></a>
-						<a href="https://www.youtube.com/channel/UCAmlmfkKDx3JM6h7ui5h_yg/featured" class="fa fa-youtube"></a>
+						<a href="https://www.facebook.com/dichvugoixe/" >&nbsp;aaa</a>
+						<a href="https://www.youtube.com/channel/UCAmlmfkKDx3JM6h7ui5h_yg/featured" class="fa fa-youtube">&nbsp;</a>
 					</div>
 				</div>
 				<div class="col-lg-5 col-md-5 hidden-md hidden-sm hidden-xs hidden-ms">

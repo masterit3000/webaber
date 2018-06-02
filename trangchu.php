@@ -40,8 +40,8 @@
             </div> -->
             <!-- <a href="<?php echo $linkapp; ?>"><input type="button" class="btn btn-yellow btn-bg-dark btn-lg" value="Đặt xe"></a> -->
         <!-- </form> -->
-        <div id="large-image" style="margin-top: 235px">
-            <img src="public/images/_car-big-2.png" alt="Taxi">
+        <div id="large-image" style="margin-top: 335px">
+            <img src="public/images/aber_taxi.png" alt="Taxi">
             <div class="dialog">
                 <span class="fa fa-phone"></span>
                 <h4 class="white">Liên hệ</h4>
